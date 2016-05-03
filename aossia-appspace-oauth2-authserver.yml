@@ -1,0 +1,21 @@
+server:
+  port: 9999
+  contextPath:/uaa
+
+spring:
+  application:
+    name: aossia-appspace-oauth2-authserver
+  datasource:
+    url: jdbc:mysql://localhost:3306/aossia_appspace_users
+    username: appspacedbadmin
+    password: P@ssp0rt
+    driver-class-name: com.mysql.jdbc.Driver
+    continueOnError: true
+    testOnBorrow: true
+    validationQuery: SELECT 1
+
+  mail:
+    host: mail.consult.bg
+    username: ddimitrov@consult.bg
+    password: Z0h1Css!
+    default-encoding: UTF-8
