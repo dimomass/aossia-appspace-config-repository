@@ -15,7 +15,7 @@ spring:
     validationQuery: SELECT 1
 
   mail:
-    host: mail.consult.bg
-    username: ddimitrov@consult.bg
-    password: Z0h1Css!
+    host: mail.test.com
+    username: test@mail.com
+    password: test
     default-encoding: UTF-8
