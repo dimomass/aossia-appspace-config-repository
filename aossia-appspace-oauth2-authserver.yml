@@ -1,6 +1,6 @@
 server:
   port: 9999
-  contextPath:/uaa
+  contextPath: /uaa
 
 spring:
   application:
